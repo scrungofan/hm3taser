@@ -1604,9 +1604,7 @@
 			},
 			"inputCopying": {
 				"AccidentEndPacify": {
-					"SetFalse": [
-						"c5b0a11d06088feb"
-					]
+					"SetFalse": ["c5b0a11d06088feb"]
 				}
 			}
 		},
