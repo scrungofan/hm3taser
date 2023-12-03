@@ -1601,6 +1601,13 @@
 					"type": "SEntityTemplateReference",
 					"value": null
 				}
+			},
+			"inputCopying": {
+				"AccidentEndPacify": {
+					"SetFalse": [
+						"c5b0a11d06088feb"
+					]
+				}
 			}
 		},
 		"5b410b95363b00bc": {
