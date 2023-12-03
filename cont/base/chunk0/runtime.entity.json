@@ -93,14 +93,14 @@
 		},
 		"4738950488d84804": {
 			"parent": "feed2c27c944d072",
-			"name": "NPC_Pistol_Reload",
+			"name": "StealthPistol_Reload",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/animations/hitman01/movement/019_weapon actions/reload/hm_dartgun_reload.xmd?/gun_dartgun_reload.xmdtake](cutsequence).pc_animation",
+						"resource": "00F220F1D4D92693",
 						"flag": "5F"
 					}
 				},
@@ -112,14 +112,14 @@
 		},
 		"374a2bc739143f4a": {
 			"parent": "feed2c27c944d072",
-			"name": "NPC_Pistol_Firing",
+			"name": "StealthPistol_Firing",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "000485AE9A0754C8",
+						"resource": "00C1D4B9A5D2910A",
 						"flag": "5F"
 					}
 				},
@@ -229,7 +229,9 @@
 			},
 			"events": {
 				"Value": {
-					"HideBone": ["2b6fb89c4de0d8de"]
+					"HideBone": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -242,7 +244,7 @@
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00DD2F032C33AC84",
+						"resource": "009EDAE005C94B70",
 						"flag": "5F"
 					}
 				},
@@ -260,20 +262,22 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["2b6fb89c4de0d8de"]
+					"value": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
 		"bac301747a0649de": {
 			"parent": "feed2c27c944d072",
-			"name": "NPC_Pistol_Reload_Left",
+			"name": "Taurus247_Reload_Left",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "0011F031C41A66DA",
+						"resource": "[assembly:/animations/hitman01/movement/019_weapon actions/reload/hm_dualhardballer_reload.xmd?/gun6_taurus247_reload.xmdtake](cutsequence).pc_animation",
 						"flag": "5F"
 					}
 				},
@@ -375,21 +379,23 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["80315bf8c0a682b2"],
+					"value": [
+						"80315bf8c0a682b2"
+					],
 					"postInit": true
 				}
 			}
 		},
 		"e13ba5126ded3c81": {
 			"parent": "feed2c27c944d072",
-			"name": "NPC_Pistol_FinalShot",
+			"name": "StealthPistol_FinalShot",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "000485AE9A0754C8",
+						"resource": "009EDAE005C94B70",
 						"flag": "5F"
 					}
 				},
@@ -407,7 +413,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["2b6fb89c4de0d8de"]
+					"value": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -442,7 +450,10 @@
 				},
 				"m_bValues": {
 					"type": "TArray<bool>",
-					"value": [true, false]
+					"value": [
+						true,
+						false
+					]
 				}
 			}
 		},
@@ -454,7 +465,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["2b6fb89c4de0d8de"]
+					"value": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -466,7 +479,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["2b6fb89c4de0d8de"]
+					"value": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -515,14 +530,14 @@
 		},
 		"cf707877185ffa4b": {
 			"parent": "feed2c27c944d072",
-			"name": "NPC_Pistol_Reload_Right",
+			"name": "Taurus247_Reload_Right",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00747ED3292383E7",
+						"resource": "[assembly:/animations/hitman01/movement/019_weapon actions/reload/hm_dualhardballer_reload.xmd?/gun5_taurus247_reload.xmdtake](cutsequence).pc_animation",
 						"flag": "5F"
 					}
 				},
@@ -553,7 +568,9 @@
 			},
 			"events": {
 				"Value": {
-					"ShowBone": ["2b6fb89c4de0d8de"]
+					"ShowBone": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -569,7 +586,9 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["a173216ec3f947ad"],
+					"value": [
+						"a173216ec3f947ad"
+					],
 					"postInit": true
 				}
 			}
@@ -581,10 +600,14 @@
 			"blueprint": "[modules:/zhm5weaponeventconsumer.class].pc_entityblueprint",
 			"events": {
 				"ShowClip": {
-					"Get": ["383ab2cb6597cd1c"]
+					"Get": [
+						"383ab2cb6597cd1c"
+					]
 				},
 				"HideClip": {
-					"Get": ["fabcb7e7eadfbaba"]
+					"Get": [
+						"fabcb7e7eadfbaba"
+					]
 				}
 			}
 		},
@@ -596,7 +619,9 @@
 			"properties": {
 				"m_BaseEventConsumers": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["227cbb0a73f9b534"]
+					"value": [
+						"227cbb0a73f9b534"
+					]
 				}
 			}
 		},
@@ -616,7 +641,9 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["06a9f7d54a04405c"]
+					"value": [
+						"06a9f7d54a04405c"
+					]
 				}
 			},
 			"platformSpecificProperties": {
@@ -636,7 +663,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["2b6fb89c4de0d8de"]
+					"value": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -648,7 +677,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["2b6fb89c4de0d8de"]
+					"value": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -660,7 +691,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["2b6fb89c4de0d8de"]
+					"value": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			}
 		},
@@ -736,7 +769,10 @@
 			"properties": {
 				"m_VariationList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["687dea72e086d8bc", "bdb1ebea481b1dff"]
+					"value": [
+						"687dea72e086d8bc",
+						"bdb1ebea481b1dff"
+					]
 				}
 			}
 		},
@@ -848,15 +884,26 @@
 			},
 			"events": {
 				"OnFireProjectilesLocal": {
-					"Activate": ["7ae513480be8ccd9", "192863eec45d8b14"],
-					"Start": ["3702cc66f4c4b2b6"],
-					"Signal": ["feed4ba6b074e7b7"]
+					"Activate": [
+						"7ae513480be8ccd9",
+						"192863eec45d8b14"
+					],
+					"Start": [
+						"3702cc66f4c4b2b6"
+					],
+					"Signal": [
+						"feed4ba6b074e7b7"
+					]
 				},
 				"EjectCartridgeHitman": {
-					"ActivateShellFX": ["2b6fb89c4de0d8de"]
+					"ActivateShellFX": [
+						"2b6fb89c4de0d8de"
+					]
 				},
 				"EjectCartridgeNPC": {
-					"ActivateShellFX": ["2b6fb89c4de0d8de"]
+					"ActivateShellFX": [
+						"2b6fb89c4de0d8de"
+					]
 				},
 				"PlayerAllShots": {
 					"TransmitEvent": [
@@ -869,12 +916,18 @@
 			},
 			"outputCopying": {
 				"OwnedByHitman": {
-					"OwnedByHitman": ["bd972182b6bbe95a"]
+					"OwnedByHitman": [
+						"bd972182b6bbe95a"
+					]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": ["bd972182b6bbe95a"],
-				"Replicable": ["bd972182b6bbe95a"]
+				"AudioEmitters": [
+					"bd972182b6bbe95a"
+				],
+				"Replicable": [
+					"bd972182b6bbe95a"
+				]
 			}
 		},
 		"bd972182b6bbe95a": {
@@ -905,10 +958,14 @@
 			},
 			"inputCopying": {
 				"MakeVisible": {
-					"MakeVisible": ["2b6fb89c4de0d8de"]
+					"MakeVisible": [
+						"2b6fb89c4de0d8de"
+					]
 				},
 				"MakeInvisible": {
-					"MakeInvisible": ["2b6fb89c4de0d8de"]
+					"MakeInvisible": [
+						"2b6fb89c4de0d8de"
+					]
 				}
 			},
 			"propertyAliases": {
@@ -1022,14 +1079,14 @@
 		},
 		"0809c1e9a1a6eba9": {
 			"parent": "feed2c27c944d072",
-			"name": "NPC_Pistol_Crouch_Reload",
+			"name": "StealthPistol_Crouch_Reload",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/animations/hitman01/movement/019_weapon actions/reload/hm_dartgun_crouch_reload.xmd?/gun_dartgun_crouch_reload.xmdtake](cutsequence).pc_animation",
+						"resource": "0066767912620C7C",
 						"flag": "5F"
 					}
 				},
@@ -1052,11 +1109,8 @@
 						"e13ba5126ded3c81",
 						"4738950488d84804",
 						"0809c1e9a1a6eba9",
-						"c6c85b0cdfcd0439",
-						"074cf99c0a442885",
 						"cf707877185ffa4b",
-						"bac301747a0649de",
-						"248bac38fb26fac6"
+						"bac301747a0649de"
 					]
 				}
 			}
@@ -1084,8 +1138,12 @@
 			},
 			"events": {
 				"Out": {
-					"UseEquipped": ["feedb99a4476c44d"],
-					"Consume": ["feedb99a4476c44d"]
+					"UseEquipped": [
+						"feedb99a4476c44d"
+					],
+					"Consume": [
+						"feedb99a4476c44d"
+					]
 				}
 			}
 		},
@@ -1124,11 +1182,21 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -1173,6 +1241,10 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
