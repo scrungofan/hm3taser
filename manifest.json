@@ -1,9 +1,16 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "invalid.Taser",
+	"name": "Handheld taser",
+	"description": "Adds a taser",
+	"authors": ["invalid"],
+	"frameworkVersion": "2.25.1",
+	"contentFolders": ["cont/base"],
+	"localisation": {
+		"english": {
+			"firearms_hero_taser_name": "Handheld Taser",
+			"firearms_hero_taser_desc": "A handheld taser customized to fire adjustable voltage prongs. Cannot be reloaded in the field. Switch modes with"
+		}
+	}
 }
