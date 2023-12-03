@@ -20,14 +20,14 @@ template
 
 textures
 
-00BDEC0DF970228E.TEXT,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_tex
-000D8FD16CEA14FE.TEXD,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_mipblock1
+00BDEC0DF970228E.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_tex
+000D8FD16CEA14FE.TEXD,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_mipblock1
 
-00C522955618F5C1.TEXT,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/diffuse_a.tex](ascolormap).pc_tex
-00F52A6451B4E627.TEXD,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/diffuse_a.tex](ascolormap).pc_mipblock1
+00C522955618F5C1.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/diffuse_a.tex](ascolormap).pc_tex
+00F52A6451B4E627.TEXD,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/diffuse_a.tex](ascolormap).pc_mipblock1
 
-0080EC303E73EE82.TEXT,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/specular_a.tex](ascolormap).pc_tex
-00E0D2C752CFCECE.TEXD,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/specular_a.tex](ascolormap).pc_mipblock1
+0080EC303E73EE82.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/specular_a.tex](ascolormap).pc_tex
+00E0D2C752CFCECE.TEXD,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/specular_a.tex](ascolormap).pc_mipblock1
 
-009406BCAE473A22.TEXT,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/ao_a.tex](ascolormap).pc_tex
-00460E86AA6A36AB.TEXD,[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/ao_a.tex](ascolormap).pc_mipblock1
+009406BCAE473A22.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/ao_a.tex](ascolormap).pc_tex
+00460E86AA6A36AB.TEXD,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/ao_a.tex](ascolormap).pc_mipblock1

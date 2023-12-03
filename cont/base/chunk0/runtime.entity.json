@@ -229,9 +229,7 @@
 			},
 			"events": {
 				"Value": {
-					"HideBone": [
-						"2b6fb89c4de0d8de"
-					]
+					"HideBone": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -262,9 +260,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b6fb89c4de0d8de"
-					]
+					"value": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -379,9 +375,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"80315bf8c0a682b2"
-					],
+					"value": ["80315bf8c0a682b2"],
 					"postInit": true
 				}
 			}
@@ -413,9 +407,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b6fb89c4de0d8de"
-					]
+					"value": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -450,10 +442,7 @@
 				},
 				"m_bValues": {
 					"type": "TArray<bool>",
-					"value": [
-						true,
-						false
-					]
+					"value": [true, false]
 				}
 			}
 		},
@@ -465,9 +454,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b6fb89c4de0d8de"
-					]
+					"value": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -479,9 +466,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b6fb89c4de0d8de"
-					]
+					"value": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -568,9 +553,7 @@
 			},
 			"events": {
 				"Value": {
-					"ShowBone": [
-						"2b6fb89c4de0d8de"
-					]
+					"ShowBone": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -586,9 +569,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a173216ec3f947ad"
-					],
+					"value": ["a173216ec3f947ad"],
 					"postInit": true
 				}
 			}
@@ -600,14 +581,10 @@
 			"blueprint": "[modules:/zhm5weaponeventconsumer.class].pc_entityblueprint",
 			"events": {
 				"ShowClip": {
-					"Get": [
-						"383ab2cb6597cd1c"
-					]
+					"Get": ["383ab2cb6597cd1c"]
 				},
 				"HideClip": {
-					"Get": [
-						"fabcb7e7eadfbaba"
-					]
+					"Get": ["fabcb7e7eadfbaba"]
 				}
 			}
 		},
@@ -619,9 +596,7 @@
 			"properties": {
 				"m_BaseEventConsumers": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"227cbb0a73f9b534"
-					]
+					"value": ["227cbb0a73f9b534"]
 				}
 			}
 		},
@@ -641,9 +616,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"06a9f7d54a04405c"
-					]
+					"value": ["06a9f7d54a04405c"]
 				}
 			},
 			"platformSpecificProperties": {
@@ -663,9 +636,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b6fb89c4de0d8de"
-					]
+					"value": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -677,9 +648,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b6fb89c4de0d8de"
-					]
+					"value": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -691,9 +660,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2b6fb89c4de0d8de"
-					]
+					"value": ["2b6fb89c4de0d8de"]
 				}
 			}
 		},
@@ -769,10 +736,7 @@
 			"properties": {
 				"m_VariationList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"687dea72e086d8bc",
-						"bdb1ebea481b1dff"
-					]
+					"value": ["687dea72e086d8bc", "bdb1ebea481b1dff"]
 				}
 			}
 		},
@@ -884,50 +848,29 @@
 			},
 			"events": {
 				"OnFireProjectilesLocal": {
-					"Activate": [
-						"7ae513480be8ccd9",
-						"192863eec45d8b14"
-					],
-					"Start": [
-						"3702cc66f4c4b2b6"
-					],
-					"Signal": [
-						"feed4ba6b074e7b7"
-					]
+					"Activate": ["7ae513480be8ccd9", "192863eec45d8b14"],
+					"Start": ["3702cc66f4c4b2b6"],
+					"Signal": ["feed4ba6b074e7b7"]
 				},
 				"EjectCartridgeHitman": {
-					"ActivateShellFX": [
-						"2b6fb89c4de0d8de"
-					]
+					"ActivateShellFX": ["2b6fb89c4de0d8de"]
 				},
 				"EjectCartridgeNPC": {
-					"ActivateShellFX": [
-						"2b6fb89c4de0d8de"
-					]
+					"ActivateShellFX": ["2b6fb89c4de0d8de"]
 				},
 				"PlayerAllShots": {
-					"TransmitEvent": [
-						"5977ee76538befe9"
-					],
-					"Signal": [
-						"feed4ba6b074e7b7"
-					]
+					"TransmitEvent": ["5977ee76538befe9"],
+					"Signal": ["feed4ba6b074e7b7"]
 				}
 			},
 			"outputCopying": {
 				"OwnedByHitman": {
-					"OwnedByHitman": [
-						"bd972182b6bbe95a"
-					]
+					"OwnedByHitman": ["bd972182b6bbe95a"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"bd972182b6bbe95a"
-				],
-				"Replicable": [
-					"bd972182b6bbe95a"
-				]
+				"AudioEmitters": ["bd972182b6bbe95a"],
+				"Replicable": ["bd972182b6bbe95a"]
 			}
 		},
 		"bd972182b6bbe95a": {
@@ -958,14 +901,10 @@
 			},
 			"inputCopying": {
 				"MakeVisible": {
-					"MakeVisible": [
-						"2b6fb89c4de0d8de"
-					]
+					"MakeVisible": ["2b6fb89c4de0d8de"]
 				},
 				"MakeInvisible": {
-					"MakeInvisible": [
-						"2b6fb89c4de0d8de"
-					]
+					"MakeInvisible": ["2b6fb89c4de0d8de"]
 				}
 			},
 			"propertyAliases": {
@@ -1138,12 +1077,8 @@
 			},
 			"events": {
 				"Out": {
-					"UseEquipped": [
-						"feedb99a4476c44d"
-					],
-					"Consume": [
-						"feedb99a4476c44d"
-					]
+					"UseEquipped": ["feedb99a4476c44d"],
+					"Consume": ["feedb99a4476c44d"]
 				}
 			}
 		},
@@ -1182,21 +1117,11 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -1241,10 +1166,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
