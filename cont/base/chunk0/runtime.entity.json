@@ -68,6 +68,10 @@
 						}
 					}
 				},
+				"m_bRemovePhysics": {
+					"type": "bool",
+					"value": true
+				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "bd972182b6bbe95a",
@@ -76,7 +80,7 @@
 			}
 		},
 		"cd2d2a541ecc0b64": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "5977ee76538befe9",
 			"name": "Evergreen_DartgunFired",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
@@ -88,7 +92,7 @@
 			}
 		},
 		"4738950488d84804": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_Reload",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -107,7 +111,7 @@
 			}
 		},
 		"374a2bc739143f4a": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_Firing",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -126,7 +130,7 @@
 			}
 		},
 		"7ae513480be8ccd9": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "f62c36cc314a4bd7",
 			"name": "HM5CamShakerEntity",
 			"factory": "[modules:/zhm5camshakerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5camshakerentity.class].pc_entityblueprint",
@@ -186,7 +190,7 @@
 			}
 		},
 		"c6c85b0cdfcd0439": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_Firing_NPC01",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -205,7 +209,7 @@
 			}
 		},
 		"fabcb7e7eadfbaba": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "227cbb0a73f9b534",
 			"name": "HideClipBoneName",
 			"factory": "[modules:/zhm5valueentity_zstring.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5valueentity_zstring.class].pc_entityblueprint",
@@ -230,7 +234,7 @@
 			}
 		},
 		"074cf99c0a442885": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_FinalShot_NPC",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -249,7 +253,7 @@
 			}
 		},
 		"463712334d12ed4a": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed065dfe70814e",
 			"name": "Keyword_WEAPON_FIREARM",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_firearm.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_firearm.entitytemplate].pc_entityblueprint",
@@ -261,7 +265,7 @@
 			}
 		},
 		"bac301747a0649de": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_Reload_Left",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -280,7 +284,7 @@
 			}
 		},
 		"192863eec45d8b14": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "f62c36cc314a4bd7",
 			"name": "HM5CamFov",
 			"factory": "[modules:/zhm5camfoventity.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5camfoventity.class].pc_entityblueprint",
@@ -316,7 +320,7 @@
 			}
 		},
 		"bdb1ebea481b1dff": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "DualGuns",
 			"factory": "[modules:/zvariationresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zvariationresourceentity.class].pc_entityblueprint",
@@ -377,7 +381,7 @@
 			}
 		},
 		"e13ba5126ded3c81": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_FinalShot",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -396,7 +400,7 @@
 			}
 		},
 		"f98d2ccfe6e8b438": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed065dfe70814e",
 			"name": "Keyword_ITEM_FIREARM_LIGHTERGUN_SWAP01",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_firearm_lightergun_swap.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_firearm_lightergun_swap.entitytemplate].pc_entityblueprint",
@@ -443,7 +447,7 @@
 			}
 		},
 		"61ec22db37ee4fc0": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed065dfe70814e",
 			"name": "KeywordEntity_DIALOGUE_GUN",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_gun.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_gun.entitytemplate].pc_entityblueprint",
@@ -455,7 +459,7 @@
 			}
 		},
 		"4d6df6c977522cd8": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed065dfe70814e",
 			"name": "Keyword_WEAPON_NPC_SMALL",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_npc_small.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_npc_small.entitytemplate].pc_entityblueprint",
@@ -467,7 +471,7 @@
 			}
 		},
 		"26725de7339d1fb8": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "f62c36cc314a4bd7",
 			"name": "PropHelper_Item_Placement",
 			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_item_placement.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_item_placement.entitytemplate].pc_entityblueprint",
@@ -510,7 +514,7 @@
 			}
 		},
 		"cf707877185ffa4b": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_Reload_Right",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -529,7 +533,7 @@
 			}
 		},
 		"383ab2cb6597cd1c": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "227cbb0a73f9b534",
 			"name": "ShowClipBoneName",
 			"factory": "[modules:/zhm5valueentity_zstring.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5valueentity_zstring.class].pc_entityblueprint",
@@ -571,7 +575,7 @@
 			}
 		},
 		"227cbb0a73f9b534": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "5e851d65ee86596b",
 			"name": "Weapon Event Consumer",
 			"factory": "[modules:/zhm5weaponeventconsumer.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5weaponeventconsumer.class].pc_entityblueprint",
@@ -625,7 +629,7 @@
 			}
 		},
 		"b2ebcff6fc01a593": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed065dfe70814e",
 			"name": "Keyword_WEAPON_FIREARM_1H",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_firearm_1h.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_firearm_1h.entitytemplate].pc_entityblueprint",
@@ -637,7 +641,7 @@
 			}
 		},
 		"0459a1253a45ebc0": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed065dfe70814e",
 			"name": "Keyword_WEAPON_SMALL",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_small.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_small.entitytemplate].pc_entityblueprint",
@@ -649,7 +653,7 @@
 			}
 		},
 		"31f6cc4f5ce21c37": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed065dfe70814e",
 			"name": "Keyword_WEAPON_PISTOL_NONLETHAL",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_pistol_nonlethal.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_pistol_nonlethal.entitytemplate].pc_entityblueprint",
@@ -661,7 +665,7 @@
 			}
 		},
 		"b073bcffa040a585": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "f62c36cc314a4bd7",
 			"name": "HM5AmmoProperties01",
 			"factory": "[modules:/zhm5ammoproperties.class].pc_entitytype",
 			"blueprint": "[modules:/zhm5ammoproperties.class].pc_entityblueprint",
@@ -677,7 +681,7 @@
 			}
 		},
 		"59911eaf43862a74": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "AnimPlayerEntity",
 			"factory": "[modules:/zanimplayerentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimplayerentity.class].pc_entityblueprint",
@@ -710,7 +714,7 @@
 			}
 		},
 		"687dea72e086d8bc": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "Gun_Glock",
 			"factory": "[modules:/zvariationresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zvariationresourceentity.class].pc_entityblueprint",
@@ -725,7 +729,7 @@
 			}
 		},
 		"f23e33b3a17367e1": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "VariationListEntity",
 			"factory": "[modules:/zvariationlistentity.class].pc_entitytype",
 			"blueprint": "[modules:/zvariationlistentity.class].pc_entityblueprint",
@@ -792,7 +796,7 @@
 				"m_CollisionResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "001ED562B3275B45",
+						"resource": "0002C151BC532AE0",
 						"flag": "5F"
 					}
 				},
@@ -855,7 +859,12 @@
 					"ActivateShellFX": ["2b6fb89c4de0d8de"]
 				},
 				"PlayerAllShots": {
-					"TransmitEvent": ["5977ee76538befe9"]
+					"TransmitEvent": [
+						"5977ee76538befe9"
+					],
+					"Signal": [
+						"feed4ba6b074e7b7"
+					]
 				}
 			},
 			"outputCopying": {
@@ -883,9 +892,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": 2.1812829971313477,
-							"y": 2.452133893966675,
-							"z": 0.5
+							"x": 0,
+							"y": 2,
+							"z": 0.4234299957752228
 						}
 					}
 				},
@@ -934,7 +943,7 @@
 			}
 		},
 		"5977ee76538befe9": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "f62c36cc314a4bd7",
 			"name": "EventChannelTransmitter_void",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
@@ -946,7 +955,7 @@
 			}
 		},
 		"289ee64efc69e8e7": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "1465ff962826e674",
 			"name": "DebugBox",
 			"factory": "[modules:/zdebugboxentity.class].pc_entitytype",
 			"blueprint": "[modules:/zdebugboxentity.class].pc_entityblueprint",
@@ -993,7 +1002,7 @@
 			}
 		},
 		"248bac38fb26fac6": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_Reload_NPC",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -1012,7 +1021,7 @@
 			}
 		},
 		"0809c1e9a1a6eba9": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "NPC_Pistol_Crouch_Reload",
 			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
@@ -1031,7 +1040,7 @@
 			}
 		},
 		"25e81df4668523f3": {
-			"parent": "bd972182b6bbe95a",
+			"parent": "feed2c27c944d072",
 			"name": "AnimPlayListEntity",
 			"factory": "[modules:/zanimplaylistentity.class].pc_entitytype",
 			"blueprint": "[modules:/zanimplaylistentity.class].pc_entityblueprint",
@@ -1075,7 +1084,8 @@
 			},
 			"events": {
 				"Out": {
-					"UseEquipped": ["feedb99a4476c44d"]
+					"UseEquipped": ["feedb99a4476c44d"],
+					"Consume": ["feedb99a4476c44d"]
 				}
 			}
 		},
@@ -1100,6 +1110,18 @@
 					"value": "f62c36cc314a4bd7"
 				}
 			}
+		},
+		"feed065dfe70814e": {
+			"parent": "bd972182b6bbe95a",
+			"name": "Keywords",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed2c27c944d072": {
+			"parent": "bd972182b6bbe95a",
+			"name": "Animations",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
