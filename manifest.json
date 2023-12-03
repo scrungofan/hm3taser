@@ -1,16 +1,17 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"id": "invalid.Taser",
 	"name": "Handheld taser",
 	"description": "Adds a taser",
 	"authors": ["invalid"],
-	"frameworkVersion": "2.25.1",
+	"frameworkVersion": "2.33.6",
 	"contentFolders": ["cont/base"],
 	"localisation": {
 		"english": {
 			"firearms_hero_taser_name": "Handheld Taser",
 			"firearms_hero_taser_desc": "A handheld taser customized to fire adjustable voltage prongs. Cannot be reloaded in the field. Switch modes with"
 		}
-	}
+	},
+	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json"
 }
