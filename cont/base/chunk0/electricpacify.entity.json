@@ -16,9 +16,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"a93b3f3ca98c5188"
-				]
+				"AudioEmitters": ["a93b3f3ca98c5188"]
 			}
 		},
 		"e39d632dab4d3345": {
@@ -47,14 +45,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"389f21b6f9e2ca87"
-					]
+					"Get": ["389f21b6f9e2ca87"]
 				},
 				"OnTrue": {
-					"In": [
-						"dd35d86c3d7c882c"
-					]
+					"In": ["dd35d86c3d7c882c"]
 				}
 			}
 		},
@@ -66,17 +60,13 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"122e24d1e12e8267"
-					],
+					"value": ["122e24d1e12e8267"],
 					"postInit": true
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"772c9674917c3930"
-					]
+					"Event_Track_Died_Fired": ["772c9674917c3930"]
 				}
 			}
 		},
@@ -121,9 +111,7 @@
 			},
 			"events": {
 				"OnEntering": {
-					"Get": [
-						"c2cea39b494cf49a"
-					]
+					"Get": ["c2cea39b494cf49a"]
 				}
 			}
 		},
@@ -148,9 +136,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7b25547c704a30c8"
-					],
+					"value": ["7b25547c704a30c8"],
 					"postInit": true
 				}
 			}
@@ -172,12 +158,8 @@
 			},
 			"events": {
 				"TimeOut": {
-					"Stop": [
-						"2bfeb036b129773b"
-					],
-					"AccidentEndPacify": [
-						"91a62ef363720598"
-					]
+					"Stop": ["2bfeb036b129773b"],
+					"AccidentEndPacify": ["91a62ef363720598"]
 				}
 			}
 		},
@@ -206,9 +188,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"aef35ed98739c4cf"
-					],
+					"value": ["aef35ed98739c4cf"],
 					"postInit": true
 				}
 			}
@@ -235,14 +215,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"PacifyByAccident": [
-						"91a62ef363720598"
-					]
+					"PacifyByAccident": ["91a62ef363720598"]
 				},
 				"OnFalse": {
-					"In": [
-						"c9e81b4683d72254"
-					]
+					"In": ["c9e81b4683d72254"]
 				}
 			}
 		},
@@ -272,14 +248,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"In": [
-						"53516da6e41decad"
-					]
+					"In": ["53516da6e41decad"]
 				},
 				"OnFalse": {
-					"Get": [
-						"935a49e321b6d5ee"
-					]
+					"Get": ["935a49e321b6d5ee"]
 				}
 			}
 		},
@@ -308,9 +280,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"117bd7f2db06f1c2"
-					],
+					"value": ["117bd7f2db06f1c2"],
 					"postInit": true
 				}
 			}
@@ -336,9 +306,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9f26f52a18b46885"
-					],
+					"value": ["9f26f52a18b46885"],
 					"postInit": true
 				}
 			}
@@ -356,10 +324,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"045805ea8cb18b57",
-						"d711b84976e22cbe"
-					],
+					"value": ["045805ea8cb18b57", "d711b84976e22cbe"],
 					"postInit": true
 				}
 			}
@@ -389,14 +354,10 @@
 			},
 			"events": {
 				"Output1": {
-					"Start": [
-						"202177e3896a5051"
-					]
+					"Start": ["202177e3896a5051"]
 				},
 				"Output2": {
-					"Start": [
-						"37bd4f9bd6fcb10d"
-					]
+					"Start": ["37bd4f9bd6fcb10d"]
 				}
 			}
 		},
@@ -422,35 +383,24 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1463205ce52780f5",
-						"c197c76c85a345f9"
-					],
+					"value": ["1463205ce52780f5", "c197c76c85a345f9"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -475,9 +425,7 @@
 			},
 			"events": {
 				"Value": {
-					"SetText": [
-						"9fb35e8046034b1a"
-					]
+					"SetText": ["9fb35e8046034b1a"]
 				}
 			}
 		},
@@ -489,17 +437,13 @@
 			"properties": {
 				"Roles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"64992bb1ee5a0419"
-					],
+					"value": ["64992bb1ee5a0419"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnStart": {
-					"DetachAndHide": [
-						"c57c9f668b0c9d17"
-					]
+					"DetachAndHide": ["c57c9f668b0c9d17"]
 				}
 			}
 		},
@@ -521,14 +465,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"Start": [
-						"05d08c5e901fdde4"
-					]
+					"Start": ["05d08c5e901fdde4"]
 				},
 				"OnFalse": {
-					"Start": [
-						"77edd6642bc1e8c7"
-					]
+					"Start": ["77edd6642bc1e8c7"]
 				}
 			}
 		},
@@ -559,9 +499,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"9cc3f2007decad71"
-					]
+					"Died_Fired": ["9cc3f2007decad71"]
 				}
 			}
 		},
@@ -587,35 +525,24 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0eafab6083124341",
-						"91abb71abad4f5cf"
-					],
+					"value": ["0eafab6083124341", "91abb71abad4f5cf"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -645,14 +572,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"5594800f24ec5abf"
-					]
+					"Get": ["5594800f24ec5abf"]
 				},
 				"OnTrue": {
-					"In": [
-						"53516da6e41decad"
-					]
+					"In": ["53516da6e41decad"]
 				}
 			}
 		},
@@ -677,9 +600,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"24526f5d449a1041"
-					]
+					"Died_Fired": ["24526f5d449a1041"]
 				}
 			}
 		},
@@ -831,9 +752,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d88986e58dfd38de"
-					],
+					"value": ["d88986e58dfd38de"],
 					"postInit": true
 				}
 			}
@@ -863,9 +782,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5005b9b22e4e7551"
-					],
+					"value": ["5005b9b22e4e7551"],
 					"postInit": true
 				}
 			}
@@ -877,19 +794,13 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out01": {
-					"AccidentStart": [
-						"91a62ef363720598"
-					]
+					"AccidentStart": ["91a62ef363720598"]
 				},
 				"Out02": {
-					"SetTrue": [
-						"c5b0a11d06088feb"
-					]
+					"SetTrue": ["c5b0a11d06088feb"]
 				},
 				"Out03": {
-					"Start": [
-						"ae11949d3c173a8b"
-					]
+					"Start": ["ae11949d3c173a8b"]
 				}
 			}
 		},
@@ -914,9 +825,7 @@
 			},
 			"events": {
 				"Value": {
-					"SetText": [
-						"9fb35e8046034b1a"
-					]
+					"SetText": ["9fb35e8046034b1a"]
 				}
 			}
 		},
@@ -954,14 +863,10 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Fire": [
-						"c132407ec2e2bc62"
-					]
+					"Fire": ["c132407ec2e2bc62"]
 				},
 				"Out01": {
-					"Start": [
-						"e9c2effb026b74fb"
-					]
+					"Start": ["e9c2effb026b74fb"]
 				}
 			}
 		},
@@ -978,10 +883,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c5826847d232c04a",
-						"ad146751d6b277f9"
-					],
+					"value": ["c5826847d232c04a", "ad146751d6b277f9"],
 					"postInit": true
 				}
 			}
@@ -1025,17 +927,13 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"20070a128126fd29"
-					],
+					"value": ["20070a128126fd29"],
 					"postInit": true
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"29310002c250a92c"
-					]
+					"Event_Track_Died_Fired": ["29310002c250a92c"]
 				}
 			}
 		},
@@ -1061,35 +959,24 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"445261d3b4b04dba",
-						"24526f5d449a1041"
-					],
+					"value": ["445261d3b4b04dba", "24526f5d449a1041"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -1114,9 +1001,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"588ec115b7b74e75"
-					]
+					"Died_Fired": ["588ec115b7b74e75"]
 				}
 			}
 		},
@@ -1133,10 +1018,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"adb4632b71fc33ad",
-						"b73cfd21820e86d8"
-					],
+					"value": ["adb4632b71fc33ad", "b73cfd21820e86d8"],
 					"postInit": true
 				}
 			}
@@ -1163,35 +1045,24 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90675b0a8fcf8ad4",
-						"9cc3f2007decad71"
-					],
+					"value": ["90675b0a8fcf8ad4", "9cc3f2007decad71"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -1216,9 +1087,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"c197c76c85a345f9"
-					]
+					"Died_Fired": ["c197c76c85a345f9"]
 				}
 			}
 		},
@@ -1260,14 +1129,10 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Fire": [
-						"c132407ec2e2bc62"
-					]
+					"Fire": ["c132407ec2e2bc62"]
 				},
 				"Out01": {
-					"Start": [
-						"6e2da077c0af402a"
-					]
+					"Start": ["6e2da077c0af402a"]
 				}
 			}
 		},
@@ -1292,9 +1157,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"c1fbc0d5a9e6b007"
-					]
+					"Died_Fired": ["c1fbc0d5a9e6b007"]
 				}
 			}
 		},
@@ -1306,16 +1169,12 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fb0e5d8500ac0054"
-					]
+					"value": ["fb0e5d8500ac0054"]
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"37bd4f9bd6fcb10d"
-					]
+					"Event_Track_Died_Fired": ["37bd4f9bd6fcb10d"]
 				}
 			}
 		},
@@ -1331,9 +1190,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"629ab6de06442847"
-					]
+					"value": ["629ab6de06442847"]
 				},
 				"m_bRunAIInGaps": {
 					"type": "bool",
@@ -1399,10 +1256,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7db27609b2b2aeb4",
-						"a0025cf0a6d0133e"
-					],
+					"value": ["7db27609b2b2aeb4", "a0025cf0a6d0133e"],
 					"postInit": true
 				}
 			}
@@ -1518,9 +1372,7 @@
 			},
 			"events": {
 				"OnEntering": {
-					"Get": [
-						"d44e185ba69bf982"
-					]
+					"Get": ["d44e185ba69bf982"]
 				}
 			}
 		},
@@ -1545,9 +1397,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"30ecdeb329608ac8"
-					],
+					"value": ["30ecdeb329608ac8"],
 					"postInit": true
 				}
 			}
@@ -1582,14 +1432,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"bc16951ed572dda9"
-					]
+					"Get": ["bc16951ed572dda9"]
 				},
 				"OnTrue": {
-					"In": [
-						"63db9698d32a8e3b"
-					]
+					"In": ["63db9698d32a8e3b"]
 				}
 			}
 		},
@@ -1677,14 +1523,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"e39d632dab4d3345"
-					]
+					"Get": ["e39d632dab4d3345"]
 				},
 				"OnTrue": {
-					"In": [
-						"dd35d86c3d7c882c"
-					]
+					"In": ["dd35d86c3d7c882c"]
 				}
 			}
 		},
@@ -1701,16 +1543,12 @@
 			},
 			"events": {
 				"OnEnterDrama": {
-					"Get": [
-						"2718fd1c267624bf"
-					]
+					"Get": ["2718fd1c267624bf"]
 				}
 			},
 			"outputCopying": {
 				"OnIActorChanged": {
-					"OnIActorChanged": [
-						"3269708c8983f50b"
-					]
+					"OnIActorChanged": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -1787,35 +1625,24 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"821a1604e9b796f6",
-						"8f3ec4eb9e19ef53"
-					],
+					"value": ["821a1604e9b796f6", "8f3ec4eb9e19ef53"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -1894,35 +1721,24 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"51953c6fbeda7aa1",
-						"588ec115b7b74e75"
-					],
+					"value": ["51953c6fbeda7aa1", "588ec115b7b74e75"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -1950,9 +1766,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"74c04c6740a7d7fc"
-					],
+					"value": ["74c04c6740a7d7fc"],
 					"postInit": true
 				}
 			}
@@ -1970,9 +1784,7 @@
 			},
 			"events": {
 				"Out": {
-					"Deactivate": [
-						"1936324eed0a7956"
-					]
+					"Deactivate": ["1936324eed0a7956"]
 				}
 			}
 		},
@@ -2000,9 +1812,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3a4a0ff9a8e53193"
-					],
+					"value": ["3a4a0ff9a8e53193"],
 					"postInit": true
 				}
 			}
@@ -2032,14 +1842,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"de83b5b20085ba83"
-					]
+					"Get": ["de83b5b20085ba83"]
 				},
 				"OnTrue": {
-					"In": [
-						"b84589bfff9b59ad"
-					]
+					"In": ["b84589bfff9b59ad"]
 				}
 			}
 		},
@@ -2050,14 +1856,10 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Fire": [
-						"c132407ec2e2bc62"
-					]
+					"Fire": ["c132407ec2e2bc62"]
 				},
 				"Out01": {
-					"Input": [
-						"989ef6b94888cd9f"
-					]
+					"Input": ["989ef6b94888cd9f"]
 				}
 			}
 		},
@@ -2069,16 +1871,12 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7a2bb161ebb9002c"
-					]
+					"value": ["7a2bb161ebb9002c"]
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"6e2da077c0af402a"
-					]
+					"Event_Track_Died_Fired": ["6e2da077c0af402a"]
 				}
 			}
 		},
@@ -2107,14 +1905,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"344c230ef41564d5"
-					]
+					"Get": ["344c230ef41564d5"]
 				},
 				"OnTrue": {
-					"In": [
-						"149de9091651a6a7"
-					]
+					"In": ["149de9091651a6a7"]
 				}
 			}
 		},
@@ -2205,14 +1999,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"39b21f0bca11e2bd"
-					]
+					"Get": ["39b21f0bca11e2bd"]
 				},
 				"OnTrue": {
-					"In": [
-						"50c29405c4a3ebae"
-					]
+					"In": ["50c29405c4a3ebae"]
 				}
 			}
 		},
@@ -2224,10 +2014,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"46c4af1a09f20814",
-						"c1fbc0d5a9e6b007"
-					]
+					"value": ["46c4af1a09f20814", "c1fbc0d5a9e6b007"]
 				},
 				"m_duration": {
 					"type": "ZGameTime",
@@ -2246,26 +2033,18 @@
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -2285,9 +2064,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5852fe82aca5f048"
-					]
+					"value": ["5852fe82aca5f048"]
 				},
 				"m_bRunAIInGaps": {
 					"type": "bool",
@@ -2366,9 +2143,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"8f3ec4eb9e19ef53"
-					]
+					"Died_Fired": ["8f3ec4eb9e19ef53"]
 				}
 			}
 		},
@@ -2380,10 +2155,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"481070c5536ae9ec",
-						"16281e486a3835b8"
-					]
+					"value": ["481070c5536ae9ec", "16281e486a3835b8"]
 				},
 				"m_targetEntity": {
 					"type": "SEntityTemplateReference",
@@ -2493,9 +2265,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"a6cb0013c76e9011"
-					]
+					"Died_Fired": ["a6cb0013c76e9011"]
 				}
 			}
 		},
@@ -2524,14 +2294,10 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"c90a25cad3d58961"
-					]
+					"Get": ["c90a25cad3d58961"]
 				},
 				"OnTrue": {
-					"In": [
-						"149de9091651a6a7"
-					]
+					"In": ["149de9091651a6a7"]
 				}
 			}
 		},
@@ -2542,14 +2308,10 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Input": [
-						"1ef85c8103033fa3"
-					]
+					"Input": ["1ef85c8103033fa3"]
 				},
 				"Out01": {
-					"Fire": [
-						"89e7f641b6bf56c3"
-					]
+					"Fire": ["89e7f641b6bf56c3"]
 				}
 			}
 		},
@@ -2585,16 +2347,12 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e1891da3e15fc70b"
-					]
+					"value": ["e1891da3e15fc70b"]
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"5b410b95363b00bc"
-					]
+					"Event_Track_Died_Fired": ["5b410b95363b00bc"]
 				}
 			}
 		},
@@ -2605,14 +2363,10 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Fire": [
-						"89e7f641b6bf56c3"
-					]
+					"Fire": ["89e7f641b6bf56c3"]
 				},
 				"Out01": {
-					"Start": [
-						"cfda863962ed59fc"
-					]
+					"Start": ["cfda863962ed59fc"]
 				}
 			}
 		},
@@ -2637,9 +2391,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Died_Fired": [
-						"91abb71abad4f5cf"
-					]
+					"Died_Fired": ["91abb71abad4f5cf"]
 				}
 			}
 		},
@@ -2672,14 +2424,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"In": [
-						"53516da6e41decad"
-					]
+					"In": ["53516da6e41decad"]
 				},
 				"OnFalse": {
-					"In": [
-						"53516da6e41decad"
-					]
+					"In": ["53516da6e41decad"]
 				}
 			}
 		},
@@ -2690,14 +2438,10 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out02": {
-					"Fire": [
-						"89e7f641b6bf56c3"
-					]
+					"Fire": ["89e7f641b6bf56c3"]
 				},
 				"Out01": {
-					"Start": [
-						"5b410b95363b00bc"
-					]
+					"Start": ["5b410b95363b00bc"]
 				}
 			}
 		},
@@ -2723,35 +2467,24 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2e78468de6b477cf",
-						"a6cb0013c76e9011"
-					],
+					"value": ["2e78468de6b477cf", "a6cb0013c76e9011"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"Done": [
-						"bdf6a68bcbc0afc7"
-					]
+					"Done": ["bdf6a68bcbc0afc7"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnPlay": [
-						"3269708c8983f50b"
-					]
+					"OnPlay": ["3269708c8983f50b"]
 				},
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"3269708c8983f50b"
-					]
+					"Event_Track_Died_Fired": ["3269708c8983f50b"]
 				},
 				"OnAbort": {
-					"OnAbort": [
-						"3269708c8983f50b"
-					]
+					"OnAbort": ["3269708c8983f50b"]
 				}
 			}
 		},
@@ -2767,9 +2500,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5a7d698b00560b84"
-					]
+					"value": ["5a7d698b00560b84"]
 				},
 				"m_bRunAIInGaps": {
 					"type": "bool",
@@ -2801,9 +2532,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f5372515020be7b5"
-					]
+					"value": ["f5372515020be7b5"]
 				},
 				"m_bRunAIInGaps": {
 					"type": "bool",
@@ -2836,14 +2565,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"In": [
-						"b84589bfff9b59ad"
-					]
+					"In": ["b84589bfff9b59ad"]
 				},
 				"OnFalse": {
-					"Get": [
-						"e7517a250b979719"
-					]
+					"Get": ["e7517a250b979719"]
 				}
 			}
 		},
@@ -2875,9 +2600,7 @@
 				},
 				"m_EnableConditions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_nPriority": {
 					"type": "int32",
@@ -2901,73 +2624,42 @@
 				},
 				"m_ConditionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c5b0a11d06088feb"
-					],
+					"value": ["c5b0a11d06088feb"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"Event_Track_Died_Fired": {
-					"PacifyByAccident": [
-						"91a62ef363720598"
-					],
-					"Get": [
-						"8a857ad6616814dd"
-					],
-					"Disable": [
-						"9fb35e8046034b1a"
-					],
-					"AccidentEndPacify": [
-						"91a62ef363720598"
-					]
+					"PacifyByAccident": ["91a62ef363720598"],
+					"Get": ["8a857ad6616814dd"],
+					"Disable": ["9fb35e8046034b1a"],
+					"AccidentEndPacify": ["91a62ef363720598"]
 				},
 				"OnPlay": {
-					"AccidentStart": [
-						"91a62ef363720598"
-					],
-					"SetTheme": [
-						"21d576dbe0c8eb36"
-					]
+					"AccidentStart": ["91a62ef363720598"],
+					"SetTheme": ["21d576dbe0c8eb36"]
 				},
 				"OnDone": {
-					"AccidentEndPacify": [
-						"91a62ef363720598"
-					]
+					"AccidentEndPacify": ["91a62ef363720598"]
 				},
 				"OnAbort": {
-					"Stop": [
-						"2bfeb036b129773b"
-					],
-					"AccidentEndPacify": [
-						"91a62ef363720598"
-					],
-					"PacifyByAccident": [
-						"91a62ef363720598"
-					]
+					"Stop": ["2bfeb036b129773b"],
+					"AccidentEndPacify": ["91a62ef363720598"],
+					"PacifyByAccident": ["91a62ef363720598"]
 				},
 				"OnIActorChanged": {
-					"Actor": [
-						"39cedec810880631"
-					]
+					"Actor": ["39cedec810880631"]
 				}
 			},
 			"inputCopying": {
 				"AddActor": {
-					"AddActor": [
-						"64992bb1ee5a0419"
-					],
-					"SetIActor": [
-						"2c50883cc5cf9919",
-						"3b44108a721b4dbe"
-					]
+					"AddActor": ["64992bb1ee5a0419"],
+					"SetIActor": ["2c50883cc5cf9919", "3b44108a721b4dbe"]
 				}
 			},
 			"outputCopying": {
 				"Event_Track_Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"a93b3f3ca98c5188"
-					]
+					"Event_Track_Died_Fired": ["a93b3f3ca98c5188"]
 				}
 			},
 			"propertyAliases": {
@@ -3000,10 +2692,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b84069481d1289f1",
-						"bbbc2e5e98a87b2c"
-					],
+					"value": ["b84069481d1289f1", "bbbc2e5e98a87b2c"],
 					"postInit": true
 				}
 			}
@@ -3035,31 +2724,15 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"inputCopying": {
 				"SetIActor": {
-					"SetIActor": [
-						"91a62ef363720598",
-						"ae11949d3c173a8b"
-					],
-					"AddActor": [
-						"3269708c8983f50b"
-					]
+					"SetIActor": ["91a62ef363720598", "ae11949d3c173a8b"],
+					"AddActor": ["3269708c8983f50b"]
 				},
 				"Start": {
-					"Reset": [
-						"2bfeb036b129773b"
-					],
-					"In": [
-						"f59c21855a96e939"
-					],
-					"Activate": [
-						"1936324eed0a7956"
-					],
-					"Get": [
-						"98ede985d5a77c9b",
-						"23db75ae41bf99f4"
-					],
-					"Enable": [
-						"9fb35e8046034b1a"
-					]
+					"Reset": ["2bfeb036b129773b"],
+					"In": ["f59c21855a96e939"],
+					"Activate": ["1936324eed0a7956"],
+					"Get": ["98ede985d5a77c9b", "23db75ae41bf99f4"],
+					"Enable": ["9fb35e8046034b1a"]
 				}
 			},
 			"propertyAliases": {
@@ -3105,10 +2778,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2266e25dd7910b31",
-						"3a62f7b168930e18"
-					]
+					"value": ["2266e25dd7910b31", "3a62f7b168930e18"]
 				}
 			}
 		},
@@ -3132,9 +2802,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"539e7a147666d97a"
-					]
+					"value": ["539e7a147666d97a"]
 				},
 				"m_bRunAIInGaps": {
 					"type": "bool",
@@ -3150,16 +2818,12 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c0dbe0db0231a1c0"
-					]
+					"value": ["c0dbe0db0231a1c0"]
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"202177e3896a5051"
-					]
+					"Event_Track_Died_Fired": ["202177e3896a5051"]
 				}
 			}
 		},
@@ -3177,16 +2841,12 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"c9bab3c2f7c60054"
-					]
+					"value": ["c9bab3c2f7c60054"]
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"cfda863962ed59fc"
-					]
+					"Event_Track_Died_Fired": ["cfda863962ed59fc"]
 				}
 			}
 		},
@@ -3202,10 +2862,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"48111d8a4d16e974",
-						"8346f961da0b7ac0"
-					]
+					"value": ["48111d8a4d16e974", "8346f961da0b7ac0"]
 				}
 			}
 		},
@@ -3234,14 +2891,10 @@
 			},
 			"events": {
 				"Output1": {
-					"Start": [
-						"772c9674917c3930"
-					]
+					"Start": ["772c9674917c3930"]
 				},
 				"Output2": {
-					"Start": [
-						"29310002c250a92c"
-					]
+					"Start": ["29310002c250a92c"]
 				}
 			}
 		},
@@ -3257,9 +2910,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ca6009caec64babe"
-					]
+					"value": ["ca6009caec64babe"]
 				},
 				"m_bRunAIInGaps": {
 					"type": "bool",
@@ -3300,14 +2951,10 @@
 			},
 			"events": {
 				"OnTrue": {
-					"In": [
-						"b84589bfff9b59ad"
-					]
+					"In": ["b84589bfff9b59ad"]
 				},
 				"OnFalse": {
-					"In": [
-						"b84589bfff9b59ad"
-					]
+					"In": ["b84589bfff9b59ad"]
 				}
 			}
 		},
@@ -3319,16 +2966,12 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1a7d13895eda6651"
-					]
+					"value": ["1a7d13895eda6651"]
 				}
 			},
 			"outputCopying": {
 				"Died_Fired": {
-					"Event_Track_Died_Fired": [
-						"e9c2effb026b74fb"
-					]
+					"Event_Track_Died_Fired": ["e9c2effb026b74fb"]
 				}
 			}
 		},
@@ -3391,9 +3034,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"319c37c344e39dcf"
-					]
+					"value": ["319c37c344e39dcf"]
 				},
 				"m_bRunAIInGaps": {
 					"type": "bool",
@@ -3406,30 +3047,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

@@ -27,9 +27,7 @@
 			},
 			"events": {
 				"Vector3": {
-					"Angles": [
-						"f1272068c91c73d3"
-					]
+					"Angles": ["f1272068c91c73d3"]
 				}
 			}
 		},
@@ -46,25 +44,16 @@
 			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out01": {
-					"Rand": [
-						"5d8f879f8941d887",
-						"80fb1ee1bcabf87f"
-					]
+					"Rand": ["5d8f879f8941d887", "80fb1ee1bcabf87f"]
 				},
 				"Out02": {
-					"ConstructVector3": [
-						"ea2df17d45c3a984"
-					]
+					"ConstructVector3": ["ea2df17d45c3a984"]
 				},
 				"Out03": {
-					"MakeVisible": [
-
-					]
+					"MakeVisible": []
 				},
 				"Out04": {
-					"In": [
-
-					]
+					"In": []
 				}
 			}
 		},
@@ -87,9 +76,7 @@
 			},
 			"events": {
 				"Value": {
-					"SetValue": [
-						"80dca4ee775006c0"
-					]
+					"SetValue": ["80dca4ee775006c0"]
 				}
 			}
 		},
@@ -136,10 +123,7 @@
 			"blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
 			"events": {
 				"Value": {
-					"In": [
-						"6a268f28a857b483",
-						"e6a56d774dd007f9"
-					]
+					"In": ["6a268f28a857b483", "e6a56d774dd007f9"]
 				}
 			}
 		},
@@ -155,9 +139,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"ce9eef5c006994d4"
-				]
+				"AudioEmitters": ["ce9eef5c006994d4"]
 			}
 		},
 		"e6a56d774dd007f9": {
@@ -173,9 +155,7 @@
 			},
 			"events": {
 				"Out": {
-					"Get": [
-						"98e9aa654e297768"
-					]
+					"Get": ["98e9aa654e297768"]
 				}
 			}
 		},
@@ -192,9 +172,7 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Get": [
-						"0e1c2a9b2aa7a48b"
-					]
+					"Get": ["0e1c2a9b2aa7a48b"]
 				}
 			}
 		},
@@ -227,9 +205,7 @@
 			},
 			"events": {
 				"OnActorHit": {
-					"Variant": [
-						"14a2782284284d53"
-					],
+					"Variant": ["14a2782284284d53"],
 					"SetIActor": [
 						"a5abf487a54dbc95",
 						"98e9aa654e297768",
@@ -237,12 +213,8 @@
 						"feedc1d502d2333d",
 						"feeda78e862e728f"
 					],
-					"Activate": [
-						"feedc39a8f3825bb"
-					],
-					"In": [
-						"feedf628714703a6"
-					]
+					"Activate": ["feedc39a8f3825bb"],
+					"In": ["feedf628714703a6"]
 				}
 			}
 		},
@@ -314,9 +286,7 @@
 			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
 			"events": {
 				"OnDead": {
-					"MakeInvisible": [
-						"1dcada1ca9e9ce1a"
-					]
+					"MakeInvisible": ["1dcada1ca9e9ce1a"]
 				}
 			}
 		},
@@ -349,9 +319,7 @@
 			},
 			"events": {
 				"Value": {
-					"SetValue": [
-						"84b787c1d44589eb"
-					]
+					"SetValue": ["84b787c1d44589eb"]
 				}
 			}
 		},
@@ -374,9 +342,7 @@
 			},
 			"events": {
 				"OnFalse": {
-					"Send": [
-						"84f6f0eb3cd987f5"
-					]
+					"Send": ["84f6f0eb3cd987f5"]
 				}
 			}
 		},
@@ -412,9 +378,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"ce9eef5c006994d4"
-				]
+				"AudioEmitters": ["ce9eef5c006994d4"]
 			}
 		},
 		"feedf628714703a6": {
@@ -430,19 +394,13 @@
 			},
 			"events": {
 				"Out": {
-					"In": [
-						"feed4b3ab3cbe513"
-					],
-					"GetIActor": [
-						"feedc1d502d2333d"
-					]
+					"In": ["feed4b3ab3cbe513"],
+					"GetIActor": ["feedc1d502d2333d"]
 				}
 			},
 			"outputCopying": {
 				"Out": {
-					"MakeInvisible": [
-						"1dcada1ca9e9ce1a"
-					]
+					"MakeInvisible": ["1dcada1ca9e9ce1a"]
 				}
 			}
 		},
@@ -459,12 +417,8 @@
 			},
 			"events": {
 				"Out": {
-					"GetKeyword2": [
-						"feedeccce8a8b1e7"
-					],
-					"SetTrue": [
-						"feed815a88a37b1a"
-					]
+					"GetKeyword2": ["feedeccce8a8b1e7"],
+					"SetTrue": ["feed815a88a37b1a"]
 				}
 			}
 		},
@@ -475,9 +429,7 @@
 			"blueprint": "[modules:/zactorstandin.class].pc_entityblueprint",
 			"events": {
 				"OnGetIActor": {
-					"AddActor": [
-						"feed84b1d7b25054"
-					]
+					"AddActor": ["feed84b1d7b25054"]
 				}
 			}
 		},
@@ -488,14 +440,10 @@
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordstates.template?/keyword_state_electricity.entitytemplate].pc_entityblueprint",
 			"events": {
 				"Keyword": {
-					"AddKeyword": [
-						"feeda78e862e728f"
-					]
+					"AddKeyword": ["feeda78e862e728f"]
 				},
 				"Keyword2": {
-					"RemoveKeyword": [
-						"feeda78e862e728f"
-					]
+					"RemoveKeyword": ["feeda78e862e728f"]
 				}
 			}
 		},
@@ -506,9 +454,7 @@
 			"blueprint": "[assembly:/_pro/design/logic.template?/state.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"In": [
-						"feedd4177c28ed68"
-					]
+					"In": ["feedd4177c28ed68"]
 				}
 			}
 		},
@@ -531,9 +477,7 @@
 			},
 			"outputCopying": {
 				"Out": {
-					"Deavtivate": [
-						"feedc39a8f3825bb"
-					]
+					"Deavtivate": ["feedc39a8f3825bb"]
 				}
 			}
 		},
@@ -545,9 +489,7 @@
 			"properties": {
 				"m_aEnterEffects": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed139f1452ffa6"
-					]
+					"value": ["feed139f1452ffa6"]
 				}
 			}
 		},
@@ -571,21 +513,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -598,10 +530,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
