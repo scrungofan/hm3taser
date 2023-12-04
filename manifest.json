@@ -9,8 +9,8 @@
 	"contentFolders": ["cont/base"],
 	"localisation": {
 		"english": {
-			"firearms_hero_taser_name": "Handheld Taser",
-			"firearms_hero_taser_desc": "A handheld taser customized to fire adjustable voltage prongs. Cannot be reloaded in the field. Switch modes with"
+			"firearms_hero_taser_name": "ICA Handheld Taser",
+			"firearms_hero_taser_desc": "A handheld taser customized to fire adjustable voltage cartridges. Cannot be reloaded in the field. Switch modes with X or Z"
 		}
 	},
 	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json"

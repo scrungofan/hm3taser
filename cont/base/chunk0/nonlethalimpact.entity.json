@@ -214,7 +214,8 @@
 						"feeda78e862e728f"
 					],
 					"Activate": ["feedc39a8f3825bb"],
-					"In": ["feedf628714703a6"]
+					"In": ["feedf628714703a6"],
+					"StunActor": ["feed697c45028a55"]
 				}
 			}
 		},
@@ -509,6 +510,18 @@
 				"m_rItem": {
 					"type": "SEntityTemplateReference",
 					"value": null
+				}
+			}
+		},
+		"feed697c45028a55": {
+			"parent": "c7e7328992ac78e0",
+			"name": "StunActorByFlashGrenade",
+			"factory": "[modules:/zstunactorbyflashgrenadeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zstunactorbyflashgrenadeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_StunDuration": {
+					"type": "float32",
+					"value": 10
 				}
 			}
 		}
