@@ -30,10 +30,9 @@ electric pacify
 00E0B9E7456B16F3.TEMP,[assembly:/_pro/design/gamecore/deatheffects.template?/deathanimstand_electric_pacify.entitytemplate].pc_entitytemplate
 0052450F9C1BB067.TBLU,[assembly:/_pro/design/gamecore/deatheffects.template?/deathanimstand_electric_pacify.entitytemplate].pc_entityblueprint
 
-images 
+images
 hudicon 64710345830543729
 00E5E5B77885B171.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/images/icons/icon_firearms_taser.png].pc_gfx
-
 
 textures
 00BDEC0DF970228E.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_tex
