@@ -7,6 +7,7 @@
 	"authors": ["invalid"],
 	"frameworkVersion": "2.33.6",
 	"contentFolders": ["cont/base"],
+	"blobsFolders": ["cont/blobs"],
 	"localisation": {
 		"english": {
 			"firearms_hero_taser_name": "ICA Handheld Taser",
