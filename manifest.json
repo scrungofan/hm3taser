@@ -11,7 +11,7 @@
 	"localisation": {
 		"english": {
 			"firearms_hero_taser_name": "ICA Handheld Taser",
-			"firearms_hero_taser_desc": "A handheld taser customized to fire adjustable voltage cartridges. Cannot be reloaded in the field. Switch modes with X or Z"
+			"firearms_hero_taser_desc": "A handheld taser favored by law enforcement around the world to incapacitate and pacify. Uses cartridges customized by ICA to be lethal and cannot be reloaded in the field.\nSwitch modes with {CHANGE_AMMO_NEXT} or {CHANGE_AMMO_PREVIOUS}."
 		}
 	},
 	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json"
