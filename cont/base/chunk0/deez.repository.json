@@ -17,24 +17,6 @@
 		"ScopeType": 0,
 		"UIKey": "Default"
 	},
-	"ee75963a-fcb1-48a5-9d13-2a4d413446f6": {
-		"AmmoConfig": "6d7de188-ecce-4445-91fc-24cf8d801233",
-		"ID_": "ee75963a-fcb1-48a5-9d13-2a4d413446f6",
-		"MagazineIndex": 1,
-		"MagazineSize": 1,
-		"Tags": ["All"]
-	},
-	"6d7de188-ecce-4445-91fc-24cf8d801233": {
-		"AmmoImpactEffect": "60821228407835765",
-		"AmmoInFlightEffect": "65887227936409030",
-		"Behaviours": ["9eda2bf7-9510-47a7-b7cf-caaff62ef344"],
-		"GravityOverride": -9.81,
-		"ID_": "6d7de188-ecce-4445-91fc-24cf8d801233",
-		"ImpactEffects": ["eIE_AmmoImpactEffect"],
-		"Name": "Non-Lethal taser cartridge",
-		"ScopeType": 0,
-		"UIKey": "Default"
-	},
 	"e2b7b748-0627-4c46-b029-733153915040": {
 		"AIPerceptibleOnRelease": true,
 		"ActionRewardType": "AR_None",
@@ -103,7 +85,7 @@
 			"ImpactEffect": "18446744073709551615",
 			"ImpactForce": 0,
 			"InitialMagazines": 2,
-			"MagazineConfigs": ["bcf36898-8f9e-46cd-b486-13c6165c0bf8", "ee75963a-fcb1-48a5-9d13-2a4d413446f6"],
+			"MagazineConfigs": ["bcf36898-8f9e-46cd-b486-13c6165c0bf8"],
 			"MaxRange": -1,
 			"MuzzleEnergy": -1000,
 			"MuzzleVelocity": 50,
@@ -331,7 +313,7 @@
 			"ImpactEffect": "18446744073709551615",
 			"ImpactForce": 0,
 			"InitialMagazines": 2,
-			"MagazineConfigs": ["bcf36898-8f9e-46cd-b486-13c6165c0bf8", "ee75963a-fcb1-48a5-9d13-2a4d413446f6"],
+			"MagazineConfigs": ["bcf36898-8f9e-46cd-b486-13c6165c0bf8"],
 			"MaxRange": -1,
 			"MuzzleEnergy": -1000,
 			"MuzzleVelocity": 50,
@@ -478,7 +460,7 @@
 			"ImpactEffect": "18446744073709551615",
 			"ImpactForce": 0,
 			"InitialMagazines": 2,
-			"MagazineConfigs": ["bcf36898-8f9e-46cd-b486-13c6165c0bf8", "ee75963a-fcb1-48a5-9d13-2a4d413446f6"],
+			"MagazineConfigs": ["bcf36898-8f9e-46cd-b486-13c6165c0bf8"],
 			"MaxRange": -1,
 			"MuzzleEnergy": -1000,
 			"MuzzleVelocity": 50,

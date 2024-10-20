@@ -1,15 +1,15 @@
 {
 	"$schema": "https://glaciermodding.org/schemas/material.schema.json",
-	"MATI": "[assembly:/_pro/items/materials/firearms/frames/pistol_stealth/pistol_stealth_mag_a_npc.mi].pc_mi",
-	"MATT": "",
-	"MATB": "",
+	"MATI": "[assembly:/_pro/items/materials/firearms/frames/pistol_taser/pistol_taser_screen.mi].pc_mi",
+	"MATT": "[assembly:/_pro/items/materials/firearms/frames/pistol_taser/pistol_taser_screen.mi].pc_entitytype",
+	"MATB": "[assembly:/_pro/items/materials/firearms/frames/pistol_taser/pistol_taser_screen.mi].pc_entityblueprint",
 	"MATE": "[[assembly:/_pro/items/materialclasses/weapon_basic.materialclass].fx](dx11).pc_mate",
 	"ERES": "[assembly:/_pro/effects/templates/materialdescriptors/fx_md_prop_weapon_gun.template?/fx_md_prop_weapon_gun.entitytemplate].pc_entityresource",
 	"TYPE": "Standard",
 	"Material": {
 		"Instance": [
 			{
-				"Name": "pistol_stealth_mag_a_npc.mi",
+				"Name": "pistol_taser_screen.mi",
 				"Tags": "",
 				"Binder": [
 					{
@@ -44,7 +44,7 @@
 							{
 								"Name": "ConstantVector1D_01_Value",
 								"Enabled": 1,
-								"Value": 0.10000000149011612
+								"Value": 0.11999999731779099
 							},
 							{
 								"Name": "ConstantVector1D_04_Value",
@@ -74,7 +74,7 @@
 							{
 								"Name": "mapTexture2D_01",
 								"Enabled": 1,
-								"Texture Id": "[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/diffuse_a.tex](ascolormap).pc_tex",
+								"Texture Id": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
 								"Tiling U": "",
 								"Tiling V": "",
 								"Type": "AsColorMap"
@@ -82,7 +82,7 @@
 							{
 								"Name": "mapTexture2D_03",
 								"Enabled": 1,
-								"Texture Id": "[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/specular_a.tex](ascolormap).pc_tex",
+								"Texture Id": "[assembly:/_pro/environment/textures/constants/color_grey_200.texture?/diffuse_a.tex](ascolormap).pc_tex",
 								"Tiling U": "",
 								"Tiling V": "",
 								"Type": "AsColorMap"
@@ -90,7 +90,7 @@
 							{
 								"Name": "mapTexture2D_02",
 								"Enabled": 1,
-								"Texture Id": "[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/ao_a.tex](ascolormap).pc_tex",
+								"Texture Id": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
 								"Tiling U": "",
 								"Tiling V": "",
 								"Type": "AsColorMap"
@@ -116,7 +116,23 @@
 			}
 		]
 	},
-	"Overrides": {},
+	"Overrides": {
+		"ConstantVector1D_06_Value": 1.0,
+		"ConstantVector1D_01_Value": 0.11999999731779099,
+		"ConstantVector1D_04_Value": 0.0,
+		"ConstantVector1D_05_Value": 1.0,
+		"ConstantVector1D_07_Value": 0.0,
+		"Texture": {
+			"mapTexture2DNormal_01": "[assembly:/_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"mapTexture2D_01": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"mapTexture2D_03": "[assembly:/_pro/environment/textures/constants/color_grey_200.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"mapTexture2D_02": "[assembly:/_pro/environment/textures/constants/color_white.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"mapTexture2D_04": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex"
+		},
+		"Color": {
+			"ConstantColorRGB_01_Value": [1.0, 1.0, 1.0]
+		}
+	},
 	"Flags": {
 		"Class": {
 			"REFLECTION2D": false,

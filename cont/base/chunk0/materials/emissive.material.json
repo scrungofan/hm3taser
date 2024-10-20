@@ -1,6 +1,6 @@
 {
 	"$schema": "https://glaciermodding.org/schemas/material.schema.json",
-	"MATI": "[assembly:/_pro/items/materials/firearms/frames/pistol_stealth/pistol_stealth_frame_a_npc.mi].pc_mi",
+	"MATI": "[assembly:/_pro/items/materials/firearms/frames/pistol_taser/pistol_taser_emissive.mi].pc_mi",
 	"MATT": "",
 	"MATB": "",
 	"MATE": "[[assembly:/_pro/items/materialclasses/weapon_basic.materialclass].fx](dx11).pc_mate",
@@ -9,7 +9,7 @@
 	"Material": {
 		"Instance": [
 			{
-				"Name": "pistol_stealth_frame_a_npc.mi",
+				"Name": "pistol_taser_emissive.mi",
 				"Tags": "",
 				"Binder": [
 					{
@@ -44,7 +44,7 @@
 							{
 								"Name": "ConstantVector1D_01_Value",
 								"Enabled": 1,
-								"Value": 0.11999999731779099
+								"Value": 0.10000000149011612
 							},
 							{
 								"Name": "ConstantVector1D_04_Value",
