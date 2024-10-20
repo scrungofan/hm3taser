@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.8.0",
+	"version": "0.8.1",
 	"id": "invalid.Taser",
 	"name": "Handheld taser",
 	"description": "Adds a taser",
 	"authors": ["invalid"],
-	"frameworkVersion": "2.33.7",
+	"frameworkVersion": "2.33.20",
 	"contentFolders": ["cont/base"],
 	"blobsFolders": ["cont/blobs"],
 	"localisation": {

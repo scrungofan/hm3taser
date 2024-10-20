@@ -40,7 +40,6 @@ hudicon 64710345830543729
 model
 00AABB8B9ABC1C5E.PRIM,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/pistol_taser.linkedprim].pc_linkedprim
 
-
 textures
 00BDEC0DF970228E.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_tex
 000D8FD16CEA14FE.TEXD,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_mipblock1
