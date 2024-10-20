@@ -18,6 +18,9 @@ template
 007BCF078D700C43.TEMP,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/pistol_taser.entitytemplate].pc_entitytype
 001EA1A2B0E302F9.TBLU,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/pistol_taser.entitytemplate].pc_entityblueprint
 
+linkedentity
+002D3AA8284722FA.TEMP,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/pistol_taser.linkedprim].pc_entitytype
+
 impacteffect lethal 70231459825207298
 00F98323FEF04802.TEMP,[assembly:/_pro/effects/templates/impacts/fx_impacts_ammunitionbased.template?/fx_e_impact_taser_lethal.entitytemplate].pc_entitytemplate
 003477342DC89DDA.TBLU,[assembly:/_pro/effects/templates/impacts/fx_impacts_ammunitionbased.template?/fx_e_impact_taser_lethal.entitytemplate].pc_entityblueprint
@@ -33,6 +36,10 @@ electric pacify
 images
 hudicon 64710345830543729
 00E5E5B77885B171.GFXI,[assembly:/_pro/online/default/cloudstorage/resources/images/icons/icon_firearms_taser.png].pc_gfx
+
+model
+00AABB8B9ABC1C5E.PRIM,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/pistol_taser.linkedprim].pc_linkedprim
+
 
 textures
 00BDEC0DF970228E.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_tex

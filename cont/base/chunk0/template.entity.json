@@ -159,7 +159,7 @@
 		"5afb7fad1b2f958b": {
 			"parent": null,
 			"name": "pistol_taser",
-			"factory": "[assembly:/_pro/items/geometry/firearms/frames/pistol_stealth/pistol_stealth_npc.wl2?/pistol_stealth_npc.linkedprim].pc_entitytype",
+			"factory": "[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/pistol_taser.linkedprim].pc_entitytype",
 			"blueprint": "[assembly:/templates/linkedtemplatedynamic.template?/linkedentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
@@ -187,12 +187,7 @@
 				}
 			},
 			"inputCopying": {
-				"SpawnClip": {
-					"Spawn": ["b600c481da8ba730"]
-				},
-				"ActivateShellFX": {
-					"Activate": ["73bab802d61cbe14"]
-				}
+				"ActivateShellFX": { "Activate": ["73bab802d61cbe14"] }
 			},
 			"exposedInterfaces": {
 				"ZModularFirearmConfigurator": "d50d238f669f0c5d"
