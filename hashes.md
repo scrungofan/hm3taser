@@ -18,6 +18,14 @@ template
 007BCF078D700C43.TEMP,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/pistol_taser.entitytemplate].pc_entitytype
 001EA1A2B0E302F9.TBLU,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/pistol_taser.entitytemplate].pc_entityblueprint
 
+0015236ABED89656.TEMP,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/taser_latch_right.entitytemplate].pc_entitytype
+00FB4A84D4EAED2A.TBLU,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/taser_latch_right.entitytemplate].pc_entityblueprint
+0008C3FFFCAE8B3F.TEMP,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/taser_latch_right.prim].pc_entitytype
+
+00E24AFF5185BC25.TEMP,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/taser_latch_left.entitytemplate].pc_entitytype
+00BDF5F95A6CF1CB.TBLU,[assembly:/_pro/items/templates/firearms/pistol_taser.template?/taser_latch_left.entitytemplate].pc_entityblueprint
+0094803472F116AB.TEMP,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/taser_latch_left.prim].pc_entitytype
+
 linkedentity
 002D3AA8284722FA.TEMP,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/pistol_taser.linkedprim].pc_entitytype
 
@@ -39,6 +47,8 @@ hudicon 64710345830543729
 
 model
 00AABB8B9ABC1C5E.PRIM,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/pistol_taser.linkedprim].pc_linkedprim
+00F74E7564A7E1D9.PRIM,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/taser_latch_left.prim].pc_prim
+00B38EA9815E428D.PRIM,[assembly:/_pro/items/geometry/firearms/frames/pistol_taser/pistol_taser.wl2?/taser_latch_right.prim].pc_prim
 
 textures
 00BDEC0DF970228E.TEXT,[assembly:/\_pro/items/textures/firearms/frames/pistol_taser/pistol_taser.texture?/normal_a.tex](asnormalmap).pc_tex

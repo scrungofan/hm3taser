@@ -860,7 +860,8 @@
 				},
 				"PlayerAllShots": {
 					"TransmitEvent": ["5977ee76538befe9"],
-					"Signal": ["feed4ba6b074e7b7"]
+					"Signal": ["feed4ba6b074e7b7"],
+					"cock": ["2b6fb89c4de0d8de"]
 				}
 			},
 			"outputCopying": {

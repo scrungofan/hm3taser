@@ -14,5 +14,15 @@
 			"firearms_hero_taser_desc": "A handheld taser favored by law enforcement around the world to incapacitate and pacify. Uses cartridges customized by ICA to be lethal and cannot be reloaded in the field."
 		}
 	},
-	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json"
+	"thumbs": [
+		"ConsoleCmd OnlineResources_Disable 1"
+	],
+	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json",
+	"dependencies": [
+		{
+			"runtimeID": "0035C43AE6D7FAB3",
+			"portFromChunk1": true,
+			"toChunk": 0
+		}
+	]
 }
