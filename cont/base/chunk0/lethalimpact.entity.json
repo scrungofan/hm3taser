@@ -393,11 +393,6 @@
 					"In": ["feed4b3ab3cbe513"],
 					"GetIActor": ["feedc1d502d2333d"]
 				}
-			},
-			"outputCopying": {
-				"Out": {
-					"MakeInvisible": ["1dcada1ca9e9ce1a"]
-				}
 			}
 		},
 		"feed4b3ab3cbe513": {
