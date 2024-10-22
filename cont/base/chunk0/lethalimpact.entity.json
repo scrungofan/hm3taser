@@ -83,7 +83,7 @@
 		"1dcada1ca9e9ce1a": {
 			"parent": "ce9eef5c006994d4",
 			"name": "ammo_dart_a",
-			"factory": "004FE820B339485E",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/effects/geometry/weapons/fx_ammo_inflight.wl2?/ammo_taserdart_a.prim].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
@@ -284,11 +284,7 @@
 			"name": "ActorDeath",
 			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
 			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
-			"events": {
-				"OnDead": {
-					"MakeInvisible": ["1dcada1ca9e9ce1a"]
-				}
-			}
+			"events": {}
 		},
 		"f1272068c91c73d3": {
 			"parent": "ea2df17d45c3a984",
@@ -509,6 +505,31 @@
 				"m_rItem": {
 					"type": "SEntityTemplateReference",
 					"value": null
+				}
+			}
+		},
+		"cafe52271637b691": {
+			"parent": "1dcada1ca9e9ce1a",
+			"name": "metal_brushed_a_02",
+			"factory": "[assembly:/_pro/environment/materials/generic/metal/metal_brushed_a_02.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/metal/metal_brushed_a_02.mi].pc_entityblueprint",
+			"properties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1dcada1ca9e9ce1a"]
+				},
+				"Override": { "type": "bool", "value": true },
+				"MaterialInstanceOverrideDest": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/items/materials/firearms/ammunition/dart/ammo_dart_a.mi].pc_mi",
+						"flag": "5F"
+					}
+				},
+				"Active": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1dcada1ca9e9ce1a"
 				}
 			}
 		}

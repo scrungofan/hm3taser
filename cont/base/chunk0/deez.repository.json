@@ -8,7 +8,7 @@
 	},
 	"60e828ab-3afc-4fbb-b6d9-aee8cdde4a32": {
 		"AmmoImpactEffect": "70231459825207298",
-		"AmmoInFlightEffect": "65887227936409030",
+		"AmmoInFlightEffect": "66225658383503513",
 		"Behaviours": ["9eda2bf7-9510-47a7-b7cf-caaff62ef344"],
 		"GravityOverride": -9.81,
 		"ID_": "60e828ab-3afc-4fbb-b6d9-aee8cdde4a32",
