@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.9.0",
+	"version": "0.10.0",
 	"id": "invalid.Taser",
 	"name": "Handheld taser",
 	"description": "Adds a taser",
@@ -14,9 +14,7 @@
 			"firearms_hero_taser_desc": "A handheld taser favored by law enforcement around the world to incapacitate and pacify. Uses cartridges customized by ICA to be lethal and cannot be reloaded in the field."
 		}
 	},
-	"thumbs": [
-		"ConsoleCmd OnlineResources_Disable 1"
-	],
+	"thumbs": ["ConsoleCmd OnlineResources_Disable 1"],
 	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json",
 	"dependencies": [
 		{
