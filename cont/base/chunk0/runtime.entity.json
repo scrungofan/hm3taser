@@ -848,10 +848,7 @@
 			},
 			"events": {
 				"OnFireProjectilesLocal": {
-					"Activate": [
-						"7ae513480be8ccd9",
-						"192863eec45d8b14"
-					],
+					"Activate": ["7ae513480be8ccd9", "192863eec45d8b14"],
 					"Start": ["3702cc66f4c4b2b6"]
 				},
 				"EjectCartridgeHitman": {

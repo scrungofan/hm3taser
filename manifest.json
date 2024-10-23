@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.10.0",
+	"version": "0.11.0",
 	"id": "invalid.Taser",
 	"name": "Handheld taser",
 	"description": "Adds a taser",
@@ -26,9 +26,7 @@
 			"contentFolders": ["cont/inventory/replace"],
 			"name": "Replace 5mm DTI",
 			"tooltip": "Replaces the 5mm DTI with the taser",
-			"thumbs": [
-				"ConsoleCmd OnlineResources_Disable 1"
-			]
+			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
 		}
 	],
 	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json",

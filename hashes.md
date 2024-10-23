@@ -37,14 +37,10 @@ inflight effect 66225658383503513
 00EB47E2AAF71099.TEMP,[assembly:/_pro/effects/templates/weapons/fx_ammo_inflight.template?/fx_e_ammo_inflight_taserdart.entitytemplate].pc_entitytemplate
 005663EBD9C3A99C.TBLU,[assembly:/_pro/effects/templates/weapons/fx_ammo_inflight.template?/fx_e_ammo_inflight_taserdart.entitytemplate].pc_entityblueprint
 
-
 00B889638F9B05E1.ASET,[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/effects/geometry/weapons/fx_ammo_inflight.wl2?/ammo_taserdart_a.prim].entitytype,[modules:/zprojectedareacullingaspect.class].entitytype).pc_entitytype
-
 
 00E2255AB180A94F.TEMP,[assembly:/_pro/effects/geometry/weapons/fx_ammo_inflight.wl2?/ammo_taserdart_a.prim].pc_entitytype
 0043C7794C1F038E.PRIM,[assembly:/_pro/effects/geometry/weapons/fx_ammo_inflight.wl2?/ammo_taserdart_a.prim].pc_prim
-
-
 
 impacteffect nonlethal 60821228407835765
 00D81495C20D4C75.TEMP,[assembly:/_pro/effects/templates/impacts/fx_impacts_ammunitionbased.template?/fx_e_impact_taser_nonlethal.entitytemplate].pc_entitytemplate
