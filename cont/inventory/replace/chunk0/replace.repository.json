@@ -1,23 +1,5 @@
 {
-	"bcf36898-8f9e-46cd-b486-13c6165c0bf8": {
-		"AmmoConfig": "60e828ab-3afc-4fbb-b6d9-aee8cdde4a32",
-		"ID_": "bcf36898-8f9e-46cd-b486-13c6165c0bf8",
-		"MagazineIndex": 0,
-		"MagazineSize": 1,
-		"Tags": ["shockwavemag"]
-	},
-	"60e828ab-3afc-4fbb-b6d9-aee8cdde4a32": {
-		"AmmoImpactEffect": "70231459825207298",
-		"AmmoInFlightEffect": "66225658383503513",
-		"Behaviours": ["9eda2bf7-9510-47a7-b7cf-caaff62ef344"],
-		"GravityOverride": -9.81,
-		"ID_": "60e828ab-3afc-4fbb-b6d9-aee8cdde4a32",
-		"ImpactEffects": ["eIE_AmmoImpactEffect"],
-		"Name": "Lethal taser cartridge",
-		"ScopeType": 0,
-		"UIKey": "Default"
-	},
-	"e2b7b748-0627-4c46-b029-733153915040": {
+	"f755f824-bdf6-4ace-b416-abf3bae4b6d5": {
 		"AIPerceptibleOnRelease": true,
 		"ActionRewardType": "AR_None",
 		"ActorConfiguration": {
@@ -204,7 +186,7 @@
 		"HitmanCanConceal": true,
 		"HolsterAbility": "eHolsteringAllowed",
 		"HudIcon": "64710345830543729",
-		"ID_": "e2b7b748-0627-4c46-b029-733153915040",
+		"ID_": "f755f824-bdf6-4ace-b416-abf3bae4b6d5",
 		"Image": "images/unlockables/item_perspective_e2b7b748-0627-4c46-b029-733153915040_0.jpg",
 		"InteractionTimeMultiplier": 1,
 		"InventoryCategoryIcon": "pistol",
