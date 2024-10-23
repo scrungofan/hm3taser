@@ -848,9 +848,11 @@
 			},
 			"events": {
 				"OnFireProjectilesLocal": {
-					"Activate": ["7ae513480be8ccd9", "192863eec45d8b14"],
-					"Start": ["3702cc66f4c4b2b6"],
-					"Signal": ["feed4ba6b074e7b7"]
+					"Activate": [
+						"7ae513480be8ccd9",
+						"192863eec45d8b14"
+					],
+					"Start": ["3702cc66f4c4b2b6"]
 				},
 				"EjectCartridgeHitman": {
 					"ActivateShellFX": ["2b6fb89c4de0d8de"]
@@ -860,7 +862,6 @@
 				},
 				"PlayerAllShots": {
 					"TransmitEvent": ["5977ee76538befe9"],
-					"Signal": ["feed4ba6b074e7b7"],
 					"cock": ["2b6fb89c4de0d8de"]
 				}
 			},
@@ -1052,56 +1053,6 @@
 						"cf707877185ffa4b",
 						"bac301747a0649de"
 					]
-				}
-			}
-		},
-		"feed6dcd0223c86d": {
-			"parent": "bd972182b6bbe95a",
-			"name": "Consume on use",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"feed4ba6b074e7b7": {
-			"parent": "feed6dcd0223c86d",
-			"name": "VoidSignalOnce",
-			"factory": "[modules:/zvoidsignalonceentity.class].pc_entitytype",
-			"blueprint": "[modules:/zvoidsignalonceentity.class].pc_entityblueprint",
-			"properties": {
-				"m_fExpireInterval": {
-					"type": "float32",
-					"value": -1
-				},
-				"m_bSignaling": {
-					"type": "bool",
-					"value": true
-				}
-			},
-			"events": {
-				"Out": {
-					"UseEquipped": ["feedb99a4476c44d"],
-					"Consume": ["feedb99a4476c44d"]
-				}
-			}
-		},
-		"feedb99a4476c44d": {
-			"parent": "feed6dcd0223c86d",
-			"name": "SetpieceHelper_ConsumeItem",
-			"factory": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_consumeitem.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_consumeitem.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aValues": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						{
-							"ref": "f62c36cc314a4bd7",
-							"externalScene": null,
-							"exposedEntity": "IsEquipped"
-						}
-					]
-				},
-				"m_rFromItem": {
-					"type": "SEntityTemplateReference",
-					"value": "f62c36cc314a4bd7"
 				}
 			}
 		},
