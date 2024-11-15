@@ -49,7 +49,6 @@
 	"options": [
 		{
 			"type": "checkbox",
-			"contentFolders": ["cont/inventory/addon"],
 			"name": "Add-on",
 			"tooltip": "Adds the taser as a new item for offline/Peacock"
 		},
@@ -59,6 +58,12 @@
 			"name": "Replace 5mm DTI",
 			"tooltip": "Replaces the 5mm DTI with the taser",
 			"thumbs": ["ConsoleCmd OnlineResources_Disable 1"]
+		},
+		{
+			"name": "Mod support for add-on",
+			"contentFolders": ["cont/inventory/addon"],
+			"type": "conditional",
+			"condition": "not (\"MLuka47.Expansion\" in config.loadOrder) and \"Add-on\" in config.modOptions(\"invalid.Taser\")"
 		}
 	],
 	"updateCheck": "https://github.com/scrungofan/hm3taser/releases/latest/download/updates.json",
