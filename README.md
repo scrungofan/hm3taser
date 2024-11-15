@@ -6,4 +6,4 @@ Adds a taser
 
 ---
 
-`invalid.Taser` v1.1.1, by invalid. This README was automatically generated from the mod's manifest.
+`invalid.Taser` v1.1.2, by invalid. This README was automatically generated from the mod's manifest.
